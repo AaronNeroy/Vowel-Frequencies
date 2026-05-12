@@ -4,7 +4,7 @@ from collections import Counter
 def count_vowels(file_path):
     vowels = "aeiou"
     try:
-        with open(file_path, 'r') as file:
+        with open(file_path, 'r', encoding='utf-8', errors='ignore') as file:
             text = file.read().lower()
             text = ''.join(char for char in text if char.isalpha() or char == ' ')
         counts = Counter(char for char in text if char in vowels)
@@ -20,6 +20,5 @@ if __name__ == "__main__":
 
     file_path = sys.argv[1]
     counts = count_vowels(file_path)
-    # Print as clean string
     output = ', '.join(f"{v}:{counts[v]}" for v in 'aeiou' if v in counts)
     print(output)
