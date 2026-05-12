@@ -15,7 +15,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t vowel-frequency-analyzer:latest .
+          docker build --no-cache -t vowel-frequency-analyzer:latest .
 
       - name: Run Docker container
         run: |
