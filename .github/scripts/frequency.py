@@ -18,5 +18,6 @@ if __name__ == "__main__":
         sys.exit(1)
 
     file_path = sys.argv[1]
-    result = count_vowels(file_path)
-    print(result)
+    # Print as clean string instead of Counter object
+    output = ', '.join(f"{v}:{result[v]}" for v in 'aeiou' if v in result)
+    print(output)
