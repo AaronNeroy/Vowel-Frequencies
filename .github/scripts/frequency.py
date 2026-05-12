@@ -6,6 +6,7 @@ def count_vowels(file_path):
     try:
         with open(file_path, 'r') as file:
             text = file.read().lower()
+            text = ''.join(char for char in text if char.isalpha() or char == ' ')
         counts = Counter(char for char in text if char in vowels)
         return counts
     except FileNotFoundError:
@@ -18,6 +19,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     file_path = sys.argv[1]
-    # Print as clean string instead of Counter object
-    output = ', '.join(f"{v}:{result[v]}" for v in 'aeiou' if v in result)
+    counts = count_vowels(file_path)
+    # Print as clean string
+    output = ', '.join(f"{v}:{counts[v]}" for v in 'aeiou' if v in counts)
     print(output)
