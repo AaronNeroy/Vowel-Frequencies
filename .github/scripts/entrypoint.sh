@@ -2,6 +2,10 @@
 
 echo "Starting Frequency Analyzer..."
 
+# Print the actual contents of frequency.py inside the container
+echo "=== frequency.py contents ==="
+cat /app/.github/scripts/frequency.py
+
 # Check if data.txt exists
 echo "Checking for data.txt..."
 ls /app/data.txt
