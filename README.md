@@ -1,7 +1,11 @@
 ## Vowel-Frequencies
-### Simply counts the vowels in a string
-Parse it to the file when calling the code in terminal like this:
+### Simply counts the vowels in the data.txt file
+Simply print text into the data.txt file using the terminal 
+e.g   **print("The quick brown fox jumps over the lazy dog") > data.txt**
 
+Then commit the changed data.txt file and push to the repo. This will then update the README file to show the count of vowels.
+
+Just a simple dockerfile project
 
 
 
