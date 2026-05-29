@@ -1,31 +1,14 @@
+## Vowel-Frequencies
+### Simply counts the vowels in a string
+Parse it to the file when calling the code in terminal like this:
+
+
+
+
+
+
 
 
 [AaronNeroy - Counter({'e': 6, 'i': 4, 'o': 3, 'a': 2}) - Tue May 12 05:12:34 UTC 2026]
-
-[AaronNeroy -  - Tue May 12 05:58:30 UTC 2026]
-
-[AaronNeroy -  - Tue May 12 06:03:02 UTC 2026]
-
-[AaronNeroy -  - Tue May 12 06:17:22 UTC 2026]
-
-[AaronNeroy -  - Tue May 12 06:27:06 UTC 2026]
-
-[AaronNeroy -  - Tue May 12 06:41:25 UTC 2026]
-
-[AaronNeroy -  - Tue May 12 06:43:09 UTC 2026]
-
-[AaronNeroy -  - Tue May 12 07:00:32 UTC 2026]
-
-[AaronNeroy -  - Tue May 12 07:02:35 UTC 2026]
-
-[AaronNeroy -  - Tue May 12 07:06:50 UTC 2026]
-
-[AaronNeroy -  - Tue May 12 07:07:58 UTC 2026]
-
-[AaronNeroy -  - Tue May 12 07:10:02 UTC 2026]
-
-[AaronNeroy -  - Tue May 12 07:14:41 UTC 2026]
-
-[AaronNeroy - a:1, e:2 - Tue May 12 07:19:59 UTC 2026]
 
 [AaronNeroy - a:1, e:3, i:1, o:4, u:2 - Tue May 12 07:24:36 UTC 2026]
